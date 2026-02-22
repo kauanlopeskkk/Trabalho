@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle Financeiro</title>
+  <link rel="stylesheet" href="/Trabalho/Parte de Estilo/Estilo.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Controle Financeiro</h2>
+
+    <input type="number" id="valor" placeholder="Digite o valor">
+    
+    <select id="categoria">
+      <option value="Alimentação">Alimentação</option>
+      <option value="Transporte">Transporte</option>
+      <option value="Lazer">Lazer</option>
+      <option value="Outros">Outros</option>
+    </select>
+
+    <button id="btnAdicionar">Adicionar</button>
+
+    <h3>Resumo</h3>
+    <div id="resumo"></div>
+
+    <h3>Total Geral</h3>
+    <p id="total">R$ 0,00</p>
+  </div>
+
+  <script type="module" src="./Parte de JavaScript/app.js"></script>
+</body>
+</html>
